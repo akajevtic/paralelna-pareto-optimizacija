@@ -1,0 +1,2884 @@
+[
+  {
+    "config": "P1",
+    "seed": 1,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "vreme": 8.967874099995242,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 127,
+    "vreme_iteracije": 0.18683071041656754,
+    "velicina_arhive": 2,
+    "hypervolume": 0.157326604,
+    "score_ranges": {
+      "min": [
+        2.79,
+        1.1,
+        2.61
+      ],
+      "max": [
+        3.91,
+        7.84,
+        2.69
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLESYGFQPTN",
+        [
+          3.91,
+          7.84,
+          2.61
+        ]
+      ],
+      [
+        "TEIYQAGSKPCNGITGPNCYHPLQSYGYQPTF",
+        [
+          2.79,
+          1.1,
+          2.69
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "evaluacije": 2000,
+      "iteracije": 48,
+      "neuspesi_ukupno": 127,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 8.967874099995242,
+      "prosecno_vreme_iteracije": 0.18683071041656754
+    }
+  },
+  {
+    "config": "P2",
+    "seed": 1,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 3.520800899997994,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 158,
+    "vreme_iteracije": 0.06573067291674306,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 158,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 3.520800899997994,
+      "ukupno_vreme_iteracija": 3.155072300003667,
+      "prosecno_vreme_iteracije": 0.06573067291674306,
+      "parallel_rank": false
+    }
+  },
+  {
+    "config": "P2-pool",
+    "seed": 1,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 9.45801670000219,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 126,
+    "vreme_iteracije": 0.18928458125007333,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 126,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 9.45801670000219,
+      "ukupno_vreme_iteracija": 9.08565990000352,
+      "prosecno_vreme_iteracije": 0.18928458125007333,
+      "parallel_rank": true
+    }
+  },
+  {
+    "config": "P3",
+    "seed": 1,
+    "topology": "ring",
+    "E": 2,
+    "lam": "2.0",
+    "vreme": 3.1311833999934606,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 125,
+    "vreme_iteracije": 0.216537106818247,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 19,
+    "primljeno_novih": 92,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 23,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 19,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7421117999983835,
+        "ukupno_vreme_iteracija": 2.3663120999917737,
+        "prosecno_vreme_iteracije": 0.21511928181743398
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 30,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 25,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7603483999992022,
+        "ukupno_vreme_iteracija": 2.383671300005517,
+        "prosecno_vreme_iteracije": 0.21669739090959245
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 42,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 25,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.760439599995152,
+        "ukupno_vreme_iteracija": 2.3826056999969296,
+        "prosecno_vreme_iteracije": 0.21660051818153905
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 30,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 23,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7713569999978063,
+        "ukupno_vreme_iteracija": 2.3950436000086484,
+        "prosecno_vreme_iteracije": 0.21773123636442257
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        3
+      ]
+    ]
+  },
+  {
+    "config": "P4",
+    "seed": 1,
+    "topology": "ring",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.1182632999989437,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 403,
+    "vreme_iteracije": 0.2168757818180893,
+    "velicina_arhive": 1,
+    "hypervolume": 0.145312803,
+    "score_ranges": {
+      "min": [
+        3.77,
+        7.63,
+        2.53
+      ],
+      "max": [
+        3.77,
+        7.63,
+        2.53
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 18,
+    "primljeno_novih": 88,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 258,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 23,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7653911000015796,
+        "ukupno_vreme_iteracija": 2.388869499998691,
+        "prosecno_vreme_iteracije": 0.21716995454533555
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 107,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 25,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7718344000022626,
+        "ukupno_vreme_iteracija": 2.393865399993956,
+        "prosecno_vreme_iteracije": 0.21762412727217784
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 37,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.759252199997718,
+        "ukupno_vreme_iteracija": 2.3826311999946483,
+        "prosecno_vreme_iteracije": 0.21660283636314984
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 1,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.751216199998453,
+        "ukupno_vreme_iteracija": 2.377168300008634,
+        "prosecno_vreme_iteracije": 0.216106209091694
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "config": "P5",
+    "seed": 1,
+    "topology": "star",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.1023990999965463,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 361,
+    "vreme_iteracije": 0.2144338659095824,
+    "velicina_arhive": 2,
+    "hypervolume": 0.23800000000000004,
+    "score_ranges": {
+      "min": [
+        2.0,
+        5.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        4.0
+      ]
+    },
+    "poslato_poruka": 30,
+    "poslato_kandidata": 150,
+    "primljeno_poruka": 27,
+    "primljeno_novih": 134,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 221,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 15,
+        "primljeno_novih": 74,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.745311500002572,
+        "ukupno_vreme_iteracija": 2.364443999991636,
+        "prosecno_vreme_iteracije": 0.21494945454469416
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 98,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7348189999975148,
+        "ukupno_vreme_iteracija": 2.3627035000099568,
+        "prosecno_vreme_iteracije": 0.21479122727363242
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 41,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7303097999974852,
+        "ukupno_vreme_iteracija": 2.357947900018189,
+        "prosecno_vreme_iteracije": 0.21435890000165356
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 1,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.720972899995104,
+        "ukupno_vreme_iteracija": 2.3499947000018437,
+        "prosecno_vreme_iteracije": 0.21363588181834944
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTY",
+        [
+          2.0,
+          5.0,
+          4.0
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "config": "P6",
+    "seed": 1,
+    "topology": "ring",
+    "E": 1,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.1004944000014802,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 377,
+    "vreme_iteracije": 0.2146398363633621,
+    "velicina_arhive": 1,
+    "hypervolume": 0.156689884,
+    "score_ranges": {
+      "min": [
+        3.91,
+        7.84,
+        2.61
+      ],
+      "max": [
+        3.91,
+        7.84,
+        2.61
+      ]
+    },
+    "poslato_poruka": 44,
+    "poslato_kandidata": 220,
+    "primljeno_poruka": 38,
+    "primljeno_novih": 181,
+    "strani_avg": 0.25,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 259,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 10,
+        "primljeno_novih": 47,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7502707000021474,
+        "ukupno_vreme_iteracija": 2.3660589000137406,
+        "prosecno_vreme_iteracije": 0.21509626363761278
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 90,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 43,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7424737000037567,
+        "ukupno_vreme_iteracija": 2.3611874999987776,
+        "prosecno_vreme_iteracije": 0.21465340909079797
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 26,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 10,
+        "primljeno_novih": 47,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7532399999981862,
+        "ukupno_vreme_iteracija": 2.366018599983363,
+        "prosecno_vreme_iteracije": 0.21509259999848754
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 2,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 44,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7343150000015157,
+        "ukupno_vreme_iteracija": 2.3508877999920514,
+        "prosecno_vreme_iteracije": 0.21371707272655013
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLESYGFQPTN",
+        [
+          3.91,
+          7.84,
+          2.61
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P8",
+    "seed": 1,
+    "topology": "all2all",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.0923704000015277,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 359,
+    "vreme_iteracije": 0.21452750454525152,
+    "velicina_arhive": 2,
+    "hypervolume": 0.23800000000000004,
+    "score_ranges": {
+      "min": [
+        2.0,
+        5.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        4.0
+      ]
+    },
+    "poslato_poruka": 60,
+    "poslato_kandidata": 300,
+    "primljeno_poruka": 54,
+    "primljeno_novih": 238,
+    "strani_avg": 0.75,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 225,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 12,
+        "primljeno_novih": 53,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.738272499998857,
+        "ukupno_vreme_iteracija": 2.3548505999933695,
+        "prosecno_vreme_iteracije": 0.2140773272721245
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 92,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 14,
+        "primljeno_novih": 61,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7545021999976598,
+        "ukupno_vreme_iteracija": 2.3657005999994,
+        "prosecno_vreme_iteracije": 0.21506369090903635
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 40,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 15,
+        "primljeno_novih": 64,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7491097999954945,
+        "ukupno_vreme_iteracija": 2.3633591000034357,
+        "prosecno_vreme_iteracije": 0.2148508272730396
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 2,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 13,
+        "primljeno_novih": 60,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7445542000059504,
+        "ukupno_vreme_iteracija": 2.3552998999948613,
+        "prosecno_vreme_iteracije": 0.21411817272680558
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTY",
+        [
+          2.0,
+          5.0,
+          4.0
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "config": "P1",
+    "seed": 2,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "vreme": 8.91510980000021,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 118,
+    "vreme_iteracije": 0.18573145416667103,
+    "velicina_arhive": 4,
+    "hypervolume": 0.21909049,
+    "score_ranges": {
+      "min": [
+        1.78,
+        2.63,
+        2.61
+      ],
+      "max": [
+        5.01,
+        7.84,
+        4.59
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          2.69,
+          4.34
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYFPLESYGFQPTY",
+        [
+          1.78,
+          4.4,
+          3.44
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYHPLQSYGFQPTY",
+        [
+          4.99,
+          2.63,
+          4.59
+        ]
+      ],
+      [
+        "TQIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.91,
+          7.84,
+          2.61
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "evaluacije": 2000,
+      "iteracije": 48,
+      "neuspesi_ukupno": 118,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 8.91510980000021,
+      "prosecno_vreme_iteracije": 0.18573145416667103
+    }
+  },
+  {
+    "config": "P2",
+    "seed": 2,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 3.278791899996577,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 113,
+    "vreme_iteracije": 0.06087501041656651,
+    "velicina_arhive": 3,
+    "hypervolume": 0.26890054799999996,
+    "score_ranges": {
+      "min": [
+        3.77,
+        1.44,
+        2.53
+      ],
+      "max": [
+        6.77,
+        7.63,
+        6.68
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVAGPNCYHPIQSYGFQPTY",
+        [
+          6.77,
+          1.44,
+          6.68
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          2.69,
+          4.34
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 113,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 3.278791899996577,
+      "ukupno_vreme_iteracija": 2.9220004999951925,
+      "prosecno_vreme_iteracije": 0.06087501041656651,
+      "parallel_rank": false
+    }
+  },
+  {
+    "config": "P2-pool",
+    "seed": 2,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 8.660597800000687,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 110,
+    "vreme_iteracije": 0.17268669166666464,
+    "velicina_arhive": 2,
+    "hypervolume": 0.2811220900000001,
+    "score_ranges": {
+      "min": [
+        4.5,
+        2.35,
+        3.0
+      ],
+      "max": [
+        5.73,
+        9.0,
+        4.98
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ]
+      ],
+      [
+        "TEIYQASSTPCNGVAGFNCYHPLQSYGFQPTY",
+        [
+          5.73,
+          2.35,
+          4.98
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 110,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 8.660597800000687,
+      "ukupno_vreme_iteracija": 8.288961199999903,
+      "prosecno_vreme_iteracije": 0.17268669166666464,
+      "parallel_rank": true
+    }
+  },
+  {
+    "config": "P3",
+    "seed": 2,
+    "topology": "ring",
+    "E": 2,
+    "lam": "2.0",
+    "vreme": 3.0988330000036513,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 106,
+    "vreme_iteracije": 0.21487384772742438,
+    "velicina_arhive": 1,
+    "hypervolume": 0.145312803,
+    "score_ranges": {
+      "min": [
+        3.77,
+        7.63,
+        2.53
+      ],
+      "max": [
+        3.77,
+        7.63,
+        2.53
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 18,
+    "primljeno_novih": 88,
+    "strani_avg": 0.5,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 20,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 2,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.748450300001423,
+        "ukupno_vreme_iteracija": 2.3703565999894636,
+        "prosecno_vreme_iteracije": 0.2154869636354058
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 28,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 24,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7453272999991896,
+        "ukupno_vreme_iteracija": 2.3673564000127953,
+        "prosecno_vreme_iteracije": 0.2152142181829814
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 26,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.727887000000919,
+        "ukupno_vreme_iteracija": 2.353001499992388,
+        "prosecno_vreme_iteracije": 0.21390922727203526
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 32,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 24,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7413172999949893,
+        "ukupno_vreme_iteracija": 2.3637348000120255,
+        "prosecno_vreme_iteracije": 0.21488498181927504
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P4",
+    "seed": 2,
+    "topology": "ring",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.087890199996764,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 305,
+    "vreme_iteracije": 0.21407187499938696,
+    "velicina_arhive": 2,
+    "hypervolume": 0.209708911,
+    "score_ranges": {
+      "min": [
+        3.91,
+        2.69,
+        2.61
+      ],
+      "max": [
+        5.01,
+        7.84,
+        4.34
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 18,
+    "primljeno_novih": 88,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 193,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 24,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7428327999950852,
+        "ukupno_vreme_iteracija": 2.366691399991396,
+        "prosecno_vreme_iteracije": 0.21515376363558145
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 86,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7197260999964783,
+        "ukupno_vreme_iteracija": 2.345346999994945,
+        "prosecno_vreme_iteracije": 0.21321336363590407
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 23,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7214389000000665,
+        "ukupno_vreme_iteracija": 2.350348499996471,
+        "prosecno_vreme_iteracije": 0.21366804545422466
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 3,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 24,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7287684999973862,
+        "ukupno_vreme_iteracija": 2.3567755999902147,
+        "prosecno_vreme_iteracije": 0.2142523272718377
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGLEGFNCYFPLQSYGFQPTN",
+        [
+          3.91,
+          7.84,
+          2.61
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          2.69,
+          4.34
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P5",
+    "seed": 2,
+    "topology": "star",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.1652940999993007,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 316,
+    "vreme_iteracije": 0.2156777704544352,
+    "velicina_arhive": 2,
+    "hypervolume": 0.14707680299999998,
+    "score_ranges": {
+      "min": [
+        3.0,
+        2.15,
+        2.53
+      ],
+      "max": [
+        3.77,
+        7.63,
+        2.67
+      ]
+    },
+    "poslato_poruka": 30,
+    "poslato_kandidata": 150,
+    "primljeno_poruka": 27,
+    "primljeno_novih": 130,
+    "strani_avg": 0.25,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 204,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 15,
+        "primljeno_novih": 71,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.772448899995652,
+        "ukupno_vreme_iteracija": 2.384069299994735,
+        "prosecno_vreme_iteracije": 0.21673357272679408
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 80,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7555824000010034,
+        "ukupno_vreme_iteracija": 2.372727899994061,
+        "prosecno_vreme_iteracije": 0.21570253636309644
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 28,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 19,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7565443999992567,
+        "ukupno_vreme_iteracija": 2.3739540000024135,
+        "prosecno_vreme_iteracije": 0.2158140000002194
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 4,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7408165000015288,
+        "ukupno_vreme_iteracija": 2.35907070000394,
+        "prosecno_vreme_iteracije": 0.21446097272763093
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ],
+        1
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYMFQPTY",
+        [
+          3.0,
+          2.15,
+          2.67
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P6",
+    "seed": 2,
+    "topology": "ring",
+    "E": 1,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.111346899997443,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 290,
+    "vreme_iteracije": 0.21447576818205893,
+    "velicina_arhive": 2,
+    "hypervolume": 0.257244646,
+    "score_ranges": {
+      "min": [
+        4.5,
+        2.69,
+        3.0
+      ],
+      "max": [
+        5.01,
+        9.0,
+        4.34
+      ]
+    },
+    "poslato_poruka": 44,
+    "poslato_kandidata": 220,
+    "primljeno_poruka": 37,
+    "primljeno_novih": 170,
+    "strani_avg": 0.25,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 202,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 10,
+        "primljeno_novih": 47,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7690513000052306,
+        "ukupno_vreme_iteracija": 2.3857315000132076,
+        "prosecno_vreme_iteracije": 0.2168846818193825
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 73,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 42,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7423928000062006,
+        "ukupno_vreme_iteracija": 2.356115199996566,
+        "prosecno_vreme_iteracije": 0.21419229090877873
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 15,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 39,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7341640000013285,
+        "ukupno_vreme_iteracija": 2.3507468000098015,
+        "prosecno_vreme_iteracije": 0.2137042545463456
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 0,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 42,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7262460999991163,
+        "ukupno_vreme_iteracija": 2.3443402999910177,
+        "prosecno_vreme_iteracije": 0.2131218454537289
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          2.69,
+          4.34
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P8",
+    "seed": 2,
+    "topology": "all2all",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.086928700002318,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 318,
+    "vreme_iteracije": 0.21411272045472948,
+    "velicina_arhive": 2,
+    "hypervolume": 0.22828572400000002,
+    "score_ranges": {
+      "min": [
+        3.98,
+        2.54,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.47
+      ]
+    },
+    "poslato_poruka": 60,
+    "poslato_kandidata": 300,
+    "primljeno_poruka": 54,
+    "primljeno_novih": 242,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 197,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 15,
+        "primljeno_novih": 68,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7494843999957084,
+        "ukupno_vreme_iteracija": 2.3682697000112967,
+        "prosecno_vreme_iteracije": 0.2152972454555724
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 89,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 12,
+        "primljeno_novih": 56,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7397067999991123,
+        "ukupno_vreme_iteracija": 2.3549167000019224,
+        "prosecno_vreme_iteracije": 0.21408333636381113
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 28,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 13,
+        "primljeno_novih": 56,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.734008300001733,
+        "ukupno_vreme_iteracija": 2.349521399999503,
+        "prosecno_vreme_iteracije": 0.21359285454540936
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 4,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 14,
+        "primljeno_novih": 62,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7323127999989083,
+        "ukupno_vreme_iteracija": 2.3482518999953754,
+        "prosecno_vreme_iteracije": 0.21347744545412503
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTF",
+        [
+          3.98,
+          2.54,
+          3.47
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P1",
+    "seed": 3,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "vreme": 8.914726599999995,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 143,
+    "vreme_iteracije": 0.1857234708333332,
+    "velicina_arhive": 7,
+    "hypervolume": 0.26452897200000003,
+    "score_ranges": {
+      "min": [
+        2.0,
+        1.86,
+        3.0
+      ],
+      "max": [
+        5.01,
+        9.0,
+        4.63
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVTGVNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          1.86,
+          4.63
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVEGYNCYHPLQSYGFQPTY",
+        [
+          3.89,
+          2.42,
+          3.42
+        ]
+      ],
+      [
+        "TEIYQAGSEPCNGVAGFNCYHPLQSYGFQPTF",
+        [
+          4.65,
+          2.08,
+          4.08
+        ]
+      ],
+      [
+        "TEIYQAGSEPCNGVAGFNCYHPLQSFGFQPTY",
+        [
+          4.67,
+          2.06,
+          4.11
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTY",
+        [
+          2.0,
+          5.0,
+          4.0
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGMKGFNCYHPLQSYGFQPTY",
+        [
+          3.82,
+          2.39,
+          3.63
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "evaluacije": 2000,
+      "iteracije": 48,
+      "neuspesi_ukupno": 143,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 8.914726599999995,
+      "prosecno_vreme_iteracije": 0.1857234708333332
+    }
+  },
+  {
+    "config": "P2",
+    "seed": 3,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 3.3048970000018016,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 157,
+    "vreme_iteracije": 0.06145964791676306,
+    "velicina_arhive": 4,
+    "hypervolume": 0.139416174,
+    "score_ranges": {
+      "min": [
+        1.54,
+        2.54,
+        2.24
+      ],
+      "max": [
+        3.98,
+        6.85,
+        3.47
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSEPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.29,
+          6.85,
+          2.24
+        ]
+      ],
+      [
+        "TEIYQAGSQPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.29,
+          6.85,
+          2.24
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTF",
+        [
+          3.98,
+          2.54,
+          3.47
+        ]
+      ],
+      [
+        "TEIYRAGSTPCNGVKGFNCYFPLQSYGFQPTF",
+        [
+          1.54,
+          3.57,
+          2.51
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 157,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 3.3048970000018016,
+      "ukupno_vreme_iteracija": 2.950063100004627,
+      "prosecno_vreme_iteracije": 0.06145964791676306,
+      "parallel_rank": false
+    }
+  },
+  {
+    "config": "P2-pool",
+    "seed": 3,
+    "topology": null,
+    "E": null,
+    "lam": 2.0,
+    "T": 4,
+    "vreme": 9.12620269999752,
+    "evaluacije": 2000,
+    "iteracije": 48,
+    "neuspesi": 149,
+    "vreme_iteracije": 0.1822532187499443,
+    "velicina_arhive": 4,
+    "hypervolume": 0.167169186,
+    "score_ranges": {
+      "min": [
+        1.72,
+        2.11,
+        2.48
+      ],
+      "max": [
+        4.16,
+        7.45,
+        3.69
+      ]
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGMEGFNCYFPLQSYGFQPTN",
+        [
+          3.71,
+          7.45,
+          2.48
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTF",
+        [
+          1.72,
+          4.22,
+          3.23
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVTGFNCYHPLQSYGFQPTH",
+        [
+          4.16,
+          2.11,
+          3.69
+        ]
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTH",
+        [
+          3.03,
+          2.41,
+          2.67
+        ]
+      ]
+    ],
+    "raw_stats": {
+      "T": 4,
+      "evaluacije": 2000,
+      "evaluacije_zapocete": 2000,
+      "evaluacije_zavrsene": 2000,
+      "iteracije": 48,
+      "zapocete_po_iteraciji": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "neuspesi_ukupno": 149,
+      "status": "budzet_potrosen",
+      "ukupno_vreme": 9.12620269999752,
+      "ukupno_vreme_iteracija": 8.748154499997327,
+      "prosecno_vreme_iteracije": 0.1822532187499443,
+      "parallel_rank": true
+    }
+  },
+  {
+    "config": "P3",
+    "seed": 3,
+    "topology": "ring",
+    "E": 2,
+    "lam": "2.0",
+    "vreme": 3.097712100003264,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 130,
+    "vreme_iteracije": 0.21410670909095975,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 18,
+    "primljeno_novih": 88,
+    "strani_avg": 0.0,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 22,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 19,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.724336499995843,
+        "ukupno_vreme_iteracija": 2.3477933000031044,
+        "prosecno_vreme_iteracije": 0.21343575454573677
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 26,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 24,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.751194399999804,
+        "ukupno_vreme_iteracija": 2.3697626999928616,
+        "prosecno_vreme_iteracije": 0.2154329727266238
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 44,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7219885000013164,
+        "ukupno_vreme_iteracija": 2.345446399995126,
+        "prosecno_vreme_iteracije": 0.2132223999995569
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 38,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 25,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.736341000003449,
+        "ukupno_vreme_iteracija": 2.3576928000111366,
+        "prosecno_vreme_iteracije": 0.2143357090919215
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P4",
+    "seed": 3,
+    "topology": "ring",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.100201699999161,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 277,
+    "vreme_iteracije": 0.21540398409028555,
+    "velicina_arhive": 1,
+    "hypervolume": 0.145312803,
+    "score_ranges": {
+      "min": [
+        3.77,
+        7.63,
+        2.53
+      ],
+      "max": [
+        3.77,
+        7.63,
+        2.53
+      ]
+    },
+    "poslato_poruka": 20,
+    "poslato_kandidata": 100,
+    "primljeno_poruka": 18,
+    "primljeno_novih": 87,
+    "strani_avg": 0.25,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 171,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 25,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7634688999969512,
+        "ukupno_vreme_iteracija": 2.387126299989177,
+        "prosecno_vreme_iteracije": 0.2170114818171979
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 70,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 19,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7302783999984968,
+        "ukupno_vreme_iteracija": 2.354506499985291,
+        "prosecno_vreme_iteracije": 0.2140460454532083
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 30,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 23,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.760501299999305,
+        "ukupno_vreme_iteracija": 2.384449699995457,
+        "prosecno_vreme_iteracije": 0.21676815454504156
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 6,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 20,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7238709000012022,
+        "ukupno_vreme_iteracija": 2.3516928000026383,
+        "prosecno_vreme_iteracije": 0.2137902545456944
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "config": "P5",
+    "seed": 3,
+    "topology": "star",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.118388499999128,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 308,
+    "vreme_iteracije": 0.21615641818193992,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "poslato_poruka": 30,
+    "poslato_kandidata": 150,
+    "primljeno_poruka": 27,
+    "primljeno_novih": 128,
+    "strani_avg": 0.25,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 197,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 14,
+        "primljeno_novih": 68,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7618576000022586,
+        "ukupno_vreme_iteracija": 2.379225000004226,
+        "prosecno_vreme_iteracije": 0.216293181818566
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 73,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 5,
+        "primljeno_novih": 23,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.768608900005347,
+        "ukupno_vreme_iteracija": 2.3898768000217387,
+        "prosecno_vreme_iteracije": 0.21726152727470352
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 33,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 19,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7463109999953303,
+        "ukupno_vreme_iteracija": 2.3710399999908987,
+        "prosecno_vreme_iteracije": 0.21554909090826352
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "star",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 5,
+        "poslato_poruka": 5,
+        "poslato_kandidata": 25,
+        "primljeno_poruka": 4,
+        "primljeno_novih": 18,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7444690999982413,
+        "ukupno_vreme_iteracija": 2.370740599988494,
+        "prosecno_vreme_iteracije": 0.21552187272622672
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P6",
+    "seed": 3,
+    "topology": "ring",
+    "E": 1,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.183600700001989,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 285,
+    "vreme_iteracije": 0.21625162045413823,
+    "velicina_arhive": 1,
+    "hypervolume": 0.22000000000000003,
+    "score_ranges": {
+      "min": [
+        4.5,
+        9.0,
+        3.0
+      ],
+      "max": [
+        4.5,
+        9.0,
+        3.0
+      ]
+    },
+    "poslato_poruka": 44,
+    "poslato_kandidata": 220,
+    "primljeno_poruka": 38,
+    "primljeno_novih": 179,
+    "strani_avg": 0.5,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 169,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 10,
+        "primljeno_novih": 49,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.776407900004415,
+        "ukupno_vreme_iteracija": 2.385771899993415,
+        "prosecno_vreme_iteracije": 0.21688835454485592
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 73,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 43,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7572825999959605,
+        "ukupno_vreme_iteracija": 2.372916599990276,
+        "prosecno_vreme_iteracije": 0.21571969090820692
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 37,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 10,
+        "primljeno_novih": 46,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.77708509999502,
+        "ukupno_vreme_iteracija": 2.3831105999925057,
+        "prosecno_vreme_iteracije": 0.2166464181811369
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "ring",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 6,
+        "poslato_poruka": 11,
+        "poslato_kandidata": 55,
+        "primljeno_poruka": 9,
+        "primljeno_novih": 41,
+        "strani_u_arhivi": 1,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7589345000014873,
+        "ukupno_vreme_iteracija": 2.3732722000058857,
+        "prosecno_vreme_iteracije": 0.21575201818235323
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSKPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          4.5,
+          9.0,
+          3.0
+        ],
+        1
+      ]
+    ]
+  },
+  {
+    "config": "P8",
+    "seed": 3,
+    "topology": "all2all",
+    "E": 2,
+    "lam": "0.5,1.0,2.0,4.0",
+    "vreme": 3.121033700001135,
+    "evaluacije": 2000,
+    "iteracije": 44,
+    "neuspesi": 275,
+    "vreme_iteracije": 0.21585769545477393,
+    "velicina_arhive": 2,
+    "hypervolume": 0.20160486,
+    "score_ranges": {
+      "min": [
+        3.77,
+        2.69,
+        2.53
+      ],
+      "max": [
+        5.01,
+        7.63,
+        4.34
+      ]
+    },
+    "poslato_poruka": 60,
+    "poslato_kandidata": 300,
+    "primljeno_poruka": 54,
+    "primljeno_novih": 244,
+    "strani_avg": 0.5,
+    "missing_ranks": [],
+    "per_process": {
+      "0": {
+        "rank": 0,
+        "P": 4,
+        "lam": 0.5,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 172,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 13,
+        "primljeno_novih": 59,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.755425399998785,
+        "ukupno_vreme_iteracija": 2.3743826000136323,
+        "prosecno_vreme_iteracije": 0.21585296363760295
+      },
+      "1": {
+        "rank": 1,
+        "P": 4,
+        "lam": 1.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 64,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 15,
+        "primljeno_novih": 68,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.771129100001417,
+        "ukupno_vreme_iteracija": 2.3882850000081817,
+        "prosecno_vreme_iteracije": 0.21711681818256198
+      },
+      "2": {
+        "rank": 2,
+        "P": 4,
+        "lam": 2.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 34,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 14,
+        "primljeno_novih": 62,
+        "strani_u_arhivi": 0,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.760584600000584,
+        "ukupno_vreme_iteracija": 2.372903599985875,
+        "prosecno_vreme_iteracije": 0.215718509089625
+      },
+      "3": {
+        "rank": 3,
+        "P": 4,
+        "lam": 4.0,
+        "topology": "all2all",
+        "budzet_dodeljen": 500,
+        "budzet_preostalo": 0,
+        "evaluacije_zapocete": 500,
+        "evaluacije_zavrsene": 500,
+        "iteracije": 11,
+        "neuspesi_ukupno": 5,
+        "poslato_poruka": 15,
+        "poslato_kandidata": 75,
+        "primljeno_poruka": 12,
+        "primljeno_novih": 55,
+        "strani_u_arhivi": 2,
+        "status": "budzet_potrosen",
+        "ukupno_vreme": 2.7431063999974867,
+        "ukupno_vreme_iteracija": 2.362167400002363,
+        "prosecno_vreme_iteracije": 0.21474249090930575
+      }
+    },
+    "archive": [
+      [
+        "TEIYQAGSRPCNGVEGFNCYFPLQSYGFQPTN",
+        [
+          3.77,
+          7.63,
+          2.53
+        ],
+        0
+      ],
+      [
+        "TEIYQAGSTPCNGVEGFNCYHPLQSYGFQPTY",
+        [
+          5.01,
+          2.69,
+          4.34
+        ],
+        2
+      ]
+    ]
+  }
+]
